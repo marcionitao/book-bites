@@ -45,6 +45,7 @@ npm install
 ```bash
 npm run dev
 ```
+
 The app will be available at `http://localhost:4321`.
 
 ### Building for Production
