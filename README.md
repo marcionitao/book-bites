@@ -13,7 +13,7 @@ Book Bites is a modern web application for sharing and reading book reviews. Use
 
 ## Project Structure
 
-```
+```bash
 /
 ├── public/           # Static assets (images, favicon, etc.)
 ├── src/
