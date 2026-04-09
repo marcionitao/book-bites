@@ -1,43 +1,74 @@
-# Astro Starter Kit: Minimal
+# Book Bites
 
-```sh
-npm create astro@latest -- --template minimal
+Book Bites is a modern web application for sharing and reading book reviews. Users can discover books, read detailed descriptions and author information, and view ratings and reviews submitted by other readers. Book Bites aims to be a simple, user-friendly platform for book lovers and review enthusiasts.
+
+> **Note:** This project is in early development. It may leverage an external API for fetching book data in the future.
+
+## Features
+
+- Browse and search for books
+- View book details: title, author, description
+- Read and submit reviews and ratings
+- Clean and responsive user interface built with [Astro](https://astro.build)
+
+## Project Structure
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
 /
-├── public/
+├── public/           # Static assets (images, favicon, etc.)
 ├── src/
-│   └── pages/
+│   ├── components/   # UI components (Astro, React, etc.)
+│   └── pages/        # Site pages (.astro files become routes)
 │       └── index.astro
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- Page files in `src/pages/` define routes.
+- Components live in `src/components/`.
+- Public assets are served from `public/`.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Getting Started
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Prerequisites
 
-## 🧞 Commands
+- Node.js (v18 or higher recommended)
+- npm
 
-All commands are run from the root of the project, from a terminal:
+### Installation
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+```bash
+npm install
+```
 
-## 👀 Want to learn more?
+### Running Locally
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```bash
+npm run dev
+```
+The app will be available at `http://localhost:4321`.
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Future Plans
+
+- Integration with a third-party books API for live data
+- User authentication for personalized reviews
+- Advanced review and rating system
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Please open an issue or submit a pull request.
+
+## License
+
+[MIT](LICENSE)
