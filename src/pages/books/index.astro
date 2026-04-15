@@ -1,20 +1,10 @@
 ---
+import { getCollection } from "astro:content";
 import BookCard from "../../components/BookCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
-// criando uma interface
-interface Book {
-    title: string;
-    author: string;
-}
-
 // Seed
-const books: Book[] = [
-    { title: "The Name of the Wind", author: "Patrick Rothfuss" },
-    { title: "The Final Empire", author: "Brandon Sanderson" },
-    { title: "The Blade Itself", author: "Joe Abercrombie" },
-    { title: "The Will of the Many", author: "James Islington" },
-];
+const books = await getCollection("books");
 ---
 
 <BaseLayout>

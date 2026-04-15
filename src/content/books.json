@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "title": "The Silent Forest",
+    "author": "Ava Martins",
+    "rating": 4,
+    "summary": "A suspenseful tale about a biologist uncovering secrets in an isolated woodland."
+  },
+  {
+    "id": "2",
+    "title": "Beyond the Horizon",
+    "author": "Liam Carter",
+    "rating": 5,
+    "summary": "An inspiring journey of a sailor chasing the edge of the world."
+  },
+  {
+    "id": "3",
+    "title": "Echoes of Time",
+    "author": "Sofia Delgado",
+    "rating": 7,
+    "summary": "A time‑travel drama exploring love, loss, and second chances."
+  },
+  {
+    "id": "4",
+    "title": "Crimson City",
+    "author": "Noah Bennett",
+    "rating": 3,
+    "summary": "A noir detective story set in a dystopian metropolis."
+  },
+  {
+    "id": "5",
+    "title": "Winds of Aether",
+    "author": "Mira Solis",
+    "rating": 6,
+    "summary": "A high‑fantasy adventure through floating kingdoms and ancient magic."
+  },
+  {
+    "id": "6",
+    "title": "Fragments",
+    "author": "Ethan Clarke",
+    "rating": 3,
+    "summary": "A psychological drama about memory, identity, and healing."
+  },
+  {
+    "id": "7",
+    "title": "The Last Ember",
+    "author": "Rina Takahashi",
+    "rating": 5,
+    "summary": "A post‑apocalyptic survival story centered on hope and resilience."
+  },
+  {
+    "id": "8",
+    "title": "Parallel Lines",
+    "author": "Jonas Meyer",
+    "rating": 7,
+    "summary": "A sci‑fi thriller about two realities colliding."
+  },
+  {
+    "id": "9",
+    "title": "Garden of Whispers",
+    "author": "Elena Rossi",
+    "rating": 7,
+    "summary": "A magical‑realism tale where plants carry the secrets of the past."
+  },
+  {
+    "id": "10",
+    "title": "Ironbound",
+    "author": "Marcus Hale",
+    "rating": 8,
+    "summary": "An epic steampunk saga of rebellion and invention."
+  }
+]
