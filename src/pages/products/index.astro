@@ -1,0 +1,28 @@
+---
+// -> significa que Esta rota deve ser renderizada on‑demand, no servidor, sempre que alguém a visitar.
+export const prerender = false;
+// ❌ A página não é gerada no build.
+// renderizada no servidor a cada pedido.
+// Pode usar dados dinâmicos, cookies, autenticação, etc.
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+interface Product {
+    title: string;
+}
+
+// buscando dados
+const response = await fetch("https://dummyjson.com/products");
+const json = await response.json();
+const products: Product[] = json.products;
+---
+
+<BaseLayout>
+    <div class="content">
+        {
+            products.map((product) => {
+                return <div>{product.title}</div>;
+            })
+        }
+    </div>
+</BaseLayout>

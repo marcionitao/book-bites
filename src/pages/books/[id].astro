@@ -1,8 +1,9 @@
 ---
 import { getCollection } from "astro:content";
+import Likes from "../../components/Likes";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { render } from "astro:content";
-
+// pagina estatica
 export async function getStaticPaths() {
     const books = await getCollection("books");
 
@@ -21,5 +22,7 @@ const { Content } = await render(book);
 <BaseLayout>
     <div class="content">
         <Content />
+        <!-- desta forma o astro permitirá a utlização do javascript neste componente apenas quando o mesmo for pressionado -->
+        <Likes client:visible />
     </div>
 </BaseLayout>
